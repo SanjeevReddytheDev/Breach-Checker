@@ -1,1 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result - BreachCheck</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Result for <%= email %></h1>
+  <% if (isBreached) { %>
+    <p class="danger">🚨 Oh no! This email was found in a breach.</p>
+  <% } else { %>
+    <p class="safe">✅ This email is safe. No breach found.</p>
+  <% } %>
+  <a href="/">Check another</a>
+</body>
+</html>
 

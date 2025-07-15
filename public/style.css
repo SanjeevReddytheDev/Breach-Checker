@@ -1,1 +1,21 @@
-
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+input {
+  padding: 10px;
+  font-size: 1rem;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+.danger {
+  color: red;
+  font-weight: bold;
+}
+.safe {
+  color: green;
+  font-weight: bold;
+}
